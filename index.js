@@ -6,6 +6,9 @@ const rules = {
   'https?:\\/\\/img\\d\\.doubanio\\.com\\/.+\\.jpg': {
     referer: 'https://movie.douban.com/',
   },
+  'https?:\\/\\/hive.indienova.com\\/.+': {
+    referer: 'https://indienova.com/',
+  },
 }
 
 /**
